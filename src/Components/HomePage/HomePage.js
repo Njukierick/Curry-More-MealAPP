@@ -34,7 +34,6 @@ const HomePage = () => {
         ) : (
           <h2>No meals found! Try another word ...</h2>
         )}
-        ;
       </div>
     </div>
   );
