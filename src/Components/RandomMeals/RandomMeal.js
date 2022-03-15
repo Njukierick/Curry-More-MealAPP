@@ -13,11 +13,11 @@ const RandomMeal = () => {
     <div className="random">
       {randomMeal.map((meal) => (
         <div key={meal.idMeal} className="random-grid">
-          <div className="random-grid-control">
+          <div className="random-grid-controls">
             <img src={meal.strMealThumb} alt="#" />
             <button onClick={fetchRandomMeal}>Generate Another Meal</button>
           </div>
-          <div className="random-grid-instruction">
+          <div className="random-grid-instructions">
             <h4>Instruction</h4>
             <p>{meal.strInstructions}</p>
           </div>

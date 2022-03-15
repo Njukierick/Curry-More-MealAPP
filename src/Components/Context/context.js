@@ -31,7 +31,7 @@ export const AppContext = ({ children }) => {
       .get(`https://www.themealdb.com/api/json/v1/1/random.php`)
       .then((res) => {
         console.log(res.data.meals);
-        setCategories(res.data.meals);
+        setRandomMeal(res.data.meals);
       });
   }, []);
 

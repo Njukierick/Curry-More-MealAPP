@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
-import categories from "./Components/Categories/Categories";
+import Categories from "./Components/Categories/Categories";
 import RandomMeal from "./Components/RandomMeals/RandomMeal";
 import HomePage from "./Components/HomePage/HomePage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
